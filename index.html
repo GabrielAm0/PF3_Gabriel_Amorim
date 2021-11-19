@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
+    <div class="box">
+        <form >
+            <fieldset>
+                <legend><b>PF3 Gabriel Amorim</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome completo</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="Aplicado" id="ValorAplicado" class="inputUser" required>
+                    <label for="email" class="labelInput">Digite o valor que deseja aplicar:</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="Parcelas" id="ValorParcelas" class="inputUser" required>
+                    <label for="telefone" class="labelInput">Digite o numero de parcelas:</label>
+                    </div>
+                    <br><br>
+                <div class="inputBox">
+                    <input type="text" name="Juros" id="ValorJuros" class="inputUser" required>
+                    <label for="cidade" class="labelInput">Digite a taxa de juros:</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                 <label id="resultadoCalculo"></label>
+                </div>
+                <br><br>
+                       <button type="button" id= "calcular" class="enviarEdit"  onclick="calcular()">Enviar</button>
+            </fieldset>
+     
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
